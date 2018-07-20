@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp" Version="3.7.0" />
+	<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Mi.Fish.EntityFramework\Mi.Fish.EntityFramework.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Mi.Fish.Common\Mi.Fish.Common.csproj" />
+    <ProjectReference Include="..\Mi.Fish.ApplicationDto\Mi.Fish.ApplicationDto.csproj" />
+  </ItemGroup>
+
+</Project>

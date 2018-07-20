@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mi.fish.web:
+    image: ${DOCKER_REGISTRY}mifishweb
+    build:
+      context: .
+      dockerfile: Mi.Fish.Web\Dockerfile

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.1\Mi.Fish.ApplicationDto.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp" Version="3.7.0" />
+    <PackageReference Include="Abp.AutoMapper" Version="3.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Mi.Fish.Core\Mi.Fish.Core.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Mi.Fish.Common\Mi.Fish.Common.csproj" />
+  </ItemGroup>
+
+</Project>
