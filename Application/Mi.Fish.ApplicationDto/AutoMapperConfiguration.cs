@@ -9,6 +9,7 @@ namespace Mi.Fish.ApplicationDto
     /// </summary>
     public static class AutoMapperConfiguration
     {
+
         public static Action<IMapperConfigurationExpression> Config = configuration =>
         {
             #region SaleDetail
